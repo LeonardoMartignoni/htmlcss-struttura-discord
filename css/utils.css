@@ -23,6 +23,17 @@
 	background-color: #D3D3D3;
 }
 
+.upper-header-content>*,
+.pink-square,
+.left-side,
+.right-side,
+.large-box,
+.left-footer-box,
+.bottom-footer-box>.logo-footer,
+.bottom-footer-box>.button-footer {
+	border: 2px dashed black;
+}
+
 /* Header */
 
 .upper-header {
