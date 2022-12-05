@@ -15,6 +15,10 @@
 	flex-direction: row-reverse;
 }
 
+.d-flex {
+	display: flex;
+}
+
 .grey {
 	background-color: #D3D3D3;
 }
@@ -23,17 +27,33 @@
 
 .upper-header {
 	background-color: #ADD8E6;
-	padding: 20px;
+	padding: 20px 0;
 }
 
 .bottom-header {
 	background-color: #00008B;
-	padding: 50px;
+	padding: 50px 0;
 }
 
 /* Main */
 
 .container>.main-content {
 	display: flex;
-	padding: 50px;
+	padding: 50px 0;
+}
+
+/* Footer */
+
+.upper-footer {
+	background-color: #23272A;
+	padding: 20px 0px 40px 0px;
+}
+
+.bottom-footer {
+	background-color: #23272A;
+	padding-top: 20px;
+}
+
+.bottom-footer-box {
+	padding: 20px 0;
 }
