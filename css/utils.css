@@ -11,6 +11,14 @@
 	display: table;
 }
 
+.row-reverse {
+	flex-direction: row-reverse;
+}
+
+.grey {
+	background-color: #D3D3D3;
+}
+
 /* Header */
 
 .upper-header {
@@ -20,5 +28,12 @@
 
 .bottom-header {
 	background-color: #00008B;
+	padding: 50px;
+}
+
+/* Main */
+
+.container>.main-content {
+	display: flex;
 	padding: 50px;
 }
