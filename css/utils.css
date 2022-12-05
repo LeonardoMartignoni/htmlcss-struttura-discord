@@ -10,3 +10,15 @@
 	clear: both;
 	display: table;
 }
+
+/* Header */
+
+.upper-header {
+	background-color: #ADD8E6;
+	padding: 20px;
+}
+
+.bottom-header {
+	background-color: #00008B;
+	height: 500px;
+}
